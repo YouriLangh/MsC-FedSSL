@@ -1,0 +1,385 @@
+{
+  "main": {
+    "id": "1a231abc9745095b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed9e4fd4160a9108",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2886d23441fef0dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "98 - Calendar/2025-04-02.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-04-02"
+            }
+          },
+          {
+            "id": "8a855dfaabf756f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - FedSSL/(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning"
+            }
+          },
+          {
+            "id": "9c6f1a44455c834e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "New papers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "New papers"
+            }
+          },
+          {
+            "id": "dadda9eb5ac0592e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "98 - Calendar/2025-03-21.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-03-21"
+            }
+          },
+          {
+            "id": "ec5d8c84f54eeace",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - FedSSL/(SelfFed) Self-supervised federated learning for data heterogeneity and label scarcity in medical images.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(SelfFed) Self-supervised federated learning for data heterogeneity and label scarcity in medical images"
+            }
+          },
+          {
+            "id": "3a58e2aea081d7d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - FedSSL/(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning"
+            }
+          },
+          {
+            "id": "03a464b2dc3b716e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - FedSSL/FedATA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FedATA"
+            }
+          },
+          {
+            "id": "f753e1f82ee8feb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - FedSSL/(FedLID) Self-Supervised Federated Learning for Leveraging Limited Image Data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(FedLID) Self-Supervised Federated Learning for Leveraging Limited Image Data"
+            }
+          },
+          {
+            "id": "b8b746832b1786cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trial Text.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trial Text"
+            }
+          },
+          {
+            "id": "2c249b973a2f3eef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Federated Learning/FedCVD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FedCVD"
+            }
+          },
+          {
+            "id": "2d0f634dd7882598",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - FedSSL/FedECG.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FedECG"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3ce752afeb794b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5152949e3edca173",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84c7b865d4993330",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d72313ce8eebc0aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2ee40e1687bff831",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4baf4c63542226e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "91fef7364cfcdb8d",
+        "type": "tabs",
+        "dimension": 62.78846153846154,
+        "children": [
+          {
+            "id": "06d586be7c7a8c24",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2de1471f6f209150",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "33c279acfaf50363",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c86a9c43835e49d0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "74e4e0390c8f10c2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "fae9a98749f0ae56",
+        "type": "tabs",
+        "dimension": 37.21153846153846,
+        "children": [
+          {
+            "id": "38f5082c0cdaaef9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9c6f1a44455c834e",
+  "lastOpenFiles": [
+    "Options.md",
+    "New papers.md",
+    "03 - FedSSL/Overcoming Client Data Deficiency in Federated Learning by Exploiting Unlabeled Data on the Server.md",
+    "99 - Assets/png/Exploiting_Unlabeled_Data_on_Server.png",
+    "98 - Calendar/2025-04-02.md",
+    "Trial Text.md",
+    "03 - FedSSL/(FedLID) Self-Supervised Federated Learning for Leveraging Limited Image Data.md",
+    "03 - FedSSL/Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning.md",
+    "03 - FedSSL/(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning.md",
+    "99 - Assets/Liang_RSCFed_Random_Sampling_Consensus_Federated_Semi-Supervised_Learning_CVPR_2022_paper.pdf",
+    "03 - FedSSL/(SelfFed) Self-supervised federated learning for data heterogeneity and label scarcity in medical images.md",
+    "03 - FedSSL/FedATA.md",
+    "99 - Assets/FedATA.pdf",
+    "98 - Calendar/2025-04-03.md",
+    "98 - Calendar/2025-03-21.md",
+    "03 - FedSSL/Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning by Exploring Diffusion Model and All Unlabeled Data.md",
+    "98 - Calendar/2025-03-26.md",
+    "98 - Calendar/2025-04-01.md",
+    "98 - Calendar/2025-03-19.md",
+    "98 - Calendar/2025-03-22.md",
+    "98 - Calendar/2025-03-31.md",
+    "01 - Federated Learning/Challenges, methods, and future directions in FL (2020).md",
+    "01 - Federated Learning/Fed‑CL‑ an atrial fibrillation prediction system using ECG signals employing federated learning mechanism.md",
+    "01 - Federated Learning/FedCVD.md",
+    "01 - Federated Learning/Federated Generative Learning with Foundation Models (2024).md",
+    "01 - Federated Learning/Federated learning review. Fundamentals, enabling technologies, and future applications.md",
+    "01 - Federated Learning/FedHealth.md",
+    "98 - Calendar/2025-03-29.md",
+    "removepic.png",
+    "99 - Assets/SelfFed.pdf",
+    "99 - Assets/FedLID_Self-Supervised_Federated_Learning_for_Leveraging_Limited_Image_Data_ICCVW_2023_paper.pdf",
+    "99 - Assets/Li_Class_Balanced_Adaptive_Pseudo_Labeling_for_Federated_Semi-Supervised_Learning_CVPR_2023_paper.pdf",
+    "99 - Assets/Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning.pdf",
+    "99 - Assets/FedCVD.pdf",
+    "99 - Assets/FedHealth.pdf",
+    "99 - Assets/Federated learning review. Fundamentals, enabling technologies, and future applications.pdf",
+    "99 - Assets/FedECG.pdf",
+    "99 - Assets/png/FLuID.png",
+    "99 - Assets/png/Normal ECG vs Afib.png",
+    "99 - Assets/png/Pretext tasks - Color transformation.png",
+    "99 - Assets/png/ECG Time.png",
+    "99 - Assets/png/ECG classification (2).png",
+    "99 - Assets/png/ECG classification.png",
+    "99 - Assets/png/PR interval features.png",
+    "99 - Assets/png/ECG complex.png"
+  ]
+}
