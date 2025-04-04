@@ -35,10 +35,11 @@ FedConsist and FedIRM --> dont assume non-iid
 
 SSL:
 FlexMatch!!
+Paws
 https://minds.wisconsin.edu/handle/1793/60444
 https://link.springer.com/article/10.1007/s10994-019-05855-6
 https://arxiv.org/abs/2006.05278
-
+Check 04/04
 FL:
 https://www.sciencedirect.com/science/article/pii/S0360835220305532 : in other vault
 https://ieeexplore.ieee.org/abstract/document/9084352
