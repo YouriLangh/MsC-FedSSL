@@ -1,5 +1,6 @@
 FL more concretely refers to all privacy-preserving decentralized collaborative machine learning techniques.
 
+Our approach would be cross-silo fl (large institutions with their own datasets)
 Open problems in FL from [[Challenges, methods, and future directions in FL (2020)]] that we aim to tackle & how: Privacy, benchmarking & supervised learning. We aim to tackle all 3 in thesis, namely using Differential privacy, SSL, and 2-sided benchmarking where we try to adhere to accepted standards
 
 When talking about FL, all the papers can be used in FL, but this one too [[Federated learning review. Fundamentals, enabling technologies, and future applications]]
@@ -7,6 +8,7 @@ Don't forget to use the original paper of McMahan & Ramage 2015 (introduced), fo
 
 Applications of FL: [[Federated learning review. Fundamentals, enabling technologies, and future applications]]
 
+Apparently in SSL, the amount of incorrect pseudolabels being incorporated into the training is not negligble and impacts performance [[Do not trust what you trust. Miscalibration in Semi-supervised Learning]]
 
 When talking about data amount and data collection (unlabeled data & ethical concerns of labelling) use this paper: [[Applications of Self-Supervised Learning to Biomedical Signals. A Survey (2023)]]
 Can use [[FedECG]] paper as well when talking about smart wearables that collect data (they sourced it from Zhang et al, Chap 2.1 in FedECG paper)
@@ -53,3 +55,5 @@ consistency regularization on FSSL.
 AND for FL theres also local training-oriented methods vs model aggregation oriented methods
 
 If using dynamic threshold, look at [[Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning]] again
+
+Do we do labels-at-client??
