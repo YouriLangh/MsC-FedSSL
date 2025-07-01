@@ -1,4 +1,6 @@
 
+Meeting:
+[1811.04820](https://arxiv.org/pdf/1811.04820)
 
 FedSSL
 https://link.springer.com/article/10.1007/s40747-022-00894-4
@@ -14,13 +16,18 @@ https://ieeexplore.ieee.org/abstract/document/9950359
 https://ieeexplore.ieee.org/abstract/document/10012038
 [Model-Contrastive Federated Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Model-Contrastive_Federated_Learning_CVPR_2021_paper.pdf)
 FedConsist and FedIRM --> dont assume non-iid
-
+https://openreview.net/forum?id=1GAjC_FauE
+After exams:
+https://ieeexplore.ieee.org/abstract/document/11032121 : cant access
+https://www.sciencedirect.com/science/article/pii/S2352152X25018651
+https://www.sciencedirect.com/science/article/pii/S156849462500732X
 
 SSL:
 FlexMatch!!
 https://minds.wisconsin.edu/handle/1793/60444
 https://link.springer.com/article/10.1007/s10994-019-05855-6
 https://arxiv.org/abs/2006.05278
+https://paperswithcode.com/sota/semi-supervised-image-classification-on-2 : SOTA
 
 FL:
 https://www.sciencedirect.com/science/article/pii/S0360835220305532 : in other vault

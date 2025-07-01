@@ -10,7 +10,6 @@
     - **Federated Transfer Learning:** Used when clients have neither many overlapping samples nor features but can benefit from each other's knowledge.
         
 2. **Ownership of Data of FL Clients:**
-    
     - Only the server has some labeled data _(FedMatch does this, not FedCon, which focuses on contrastive learning for representation learning)._
         
     - Some clients are fully labeled, and others are fully unlabeled _(common in federated semi-supervised learning, e.g., FedMatch, FedSEAL)._

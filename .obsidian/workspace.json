@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2886d23441fef0dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "98 - Calendar/2025-04-02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-04-02"
-            }
-          },
-          {
-            "id": "8a855dfaabf756f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - FedSSL/(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning"
-            }
-          },
-          {
-            "id": "9c6f1a44455c834e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "New papers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "New papers"
-            }
-          },
-          {
             "id": "32f336cef9efc90c",
             "type": "leaf",
             "state": {
@@ -64,133 +22,49 @@
             }
           },
           {
-            "id": "d70f4437f15523d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "98 - Calendar/2025-04-04.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-04-04"
-            }
-          },
-          {
             "id": "f3c01f2ab90ebf77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "New papers.md",
+                "file": "Diary of Results.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "New papers"
+              "title": "Diary of Results"
             }
           },
           {
-            "id": "f56a8be3f99bb354",
+            "id": "2d7bc37033b920df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FedMatch.md",
+                "file": "98 - Calendar/2025-07-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FedMatch"
+              "title": "2025-07-02"
             }
           },
           {
-            "id": "37fe6df6b8f1ce9b",
+            "id": "9fe4884f3f66de9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 - Semi-Supervised Learning/PAWS.md",
+                "file": "03 - FedSSL/Federated semi-supervised learning with contrastive representations against noisy labels.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PAWS"
-            }
-          },
-          {
-            "id": "932bbbc347dc21d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Benchmarking-Semi-supervised-Federated-Learning"
-            }
-          },
-          {
-            "id": "ded45401146e4d30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05 - Semi-Supervised Learning/FixMatch.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FixMatch"
-            }
-          },
-          {
-            "id": "d99da5d64d8c8758",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trial Text.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Trial Text"
-            }
-          },
-          {
-            "id": "f46eed3e3a54a188",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Benchmarking-Semi-supervised-Federated-Learning"
-            }
-          },
-          {
-            "id": "43a154c765c64112",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - FedSSL/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective"
+              "title": "Federated semi-supervised learning with contrastive representations against noisy labels"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -350,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263
+    "width": 268
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -362,51 +236,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f56a8be3f99bb354",
+  "active": "2d7bc37033b920df",
   "lastOpenFiles": [
-    "99 - Assets/FedMatch.pdf",
+    "98 - Calendar/2025-07-01.md",
+    "Diary of Results.md",
+    "98 - Calendar/2025-07-02.md",
+    "98 - Calendar/2025-06-30.md",
     "New papers.md",
-    "FedMatch.md",
-    "Trial Text.md",
-    "03 - FedSSL/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.md",
-    "99 - Assets/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.pdf",
-    "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
-    "03 - FedSSL/Overcoming Client Data Deficiency in Federated Learning by Exploiting Unlabeled Data on the Server.md",
-    "05 - Semi-Supervised Learning/The Illustrated FixMatch for Semi-Supervised Learning.md",
-    "05 - Semi-Supervised Learning/FixMatch.md",
-    "99 - Assets/FixMatch.pdf",
-    "99 - Assets/The Illustrated FixMatch for Semi-Supervised Learning.png",
+    "03 - FedSSL/Federated semi-supervised learning with contrastive representations against noisy labels.md",
+    "99 - Assets/Federated semi-supervised learning with contrastive representations against.pdf",
+    "Untitled",
+    "03 - FedSSL/Federated Learning Model Using CBDPL for Medical Image Segmentation.md",
+    "99 - Assets/Federated_Learning_model_using_CBDPL_for_Medical_I.pdf",
+    "98 - Calendar/2025-04-23.md",
+    "Options.md",
+    "03 - FedSSL/FedMatch.md",
     "03 - FedSSL/FedECG.md",
-    "01 - Federated Learning/FedCVD.md",
-    "03 - FedSSL/(FedLID) Self-Supervised Federated Learning for Leveraging Limited Image Data.md",
     "03 - FedSSL/FedATA.md",
-    "03 - FedSSL/(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning.md",
+    "03 - FedSSL/Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning by Exploring Diffusion Model and All Unlabeled Data.md",
+    "03 - FedSSL/Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning.md",
+    "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
+    "03 - FedSSL/(SemiFed) Semi-supervised Federated Learning with Consistency and  Pseudo-Labeling.md",
     "03 - FedSSL/(SelfFed) Self-supervised federated learning for data heterogeneity and label scarcity in medical images.md",
-    "98 - Calendar/2025-03-21.md",
+    "03 - FedSSL/(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning.md",
+    "03 - FedSSL/(FedLID) Self-Supervised Federated Learning for Leveraging Limited Image Data.md",
+    "01 - Federated Learning/FedHealth.md",
+    "05 - Semi-Supervised Learning/(S4L) Self-Supervised Semi-Supervised Learning.md",
+    "98 - Calendar/2025-05-07.md",
+    "98 - Calendar/2025-04-30.md",
+    "98 - Calendar/2025-04-04.md",
+    "05 - Semi-Supervised Learning/FixMatch.md",
+    "05 - Semi-Supervised Learning/RoPAWS.md",
+    "99 - Assets/FedMatch.pdf",
+    "99 - Assets/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.pdf",
+    "99 - Assets/FixMatch.pdf",
+    "99 - Assets/png/The Illustrated FixMatch for Semi-Supervised Learning.png",
     "99 - Assets/Liang_RSCFed_Random_Sampling_Consensus_Federated_Semi-Supervised_Learning_CVPR_2022_paper.pdf",
     "99 - Assets/Benchmarking-Semi-supervised-Federated-Learning.pdf",
-    "05 - Semi-Supervised Learning/RoPAWS.md",
     "99 - Assets/RoPAWS.pdf",
-    "05 - Semi-Supervised Learning/PAWS.md",
-    "05 - Semi-Supervised Learning/Semi-Supervised Learning in Computer Vision.md",
     "99 - Assets/png/Semi-Supervised Learning in Computer Vision 2.png",
     "99 - Assets/png/chest leads.png",
     "99 - Assets/png/Semi-Supervised Learning in Computer Vision 1.png",
     "99 - Assets/png/Semi-Supervised Learning in Computer Vision.png",
-    "98 - Calendar/2025-04-16.md",
-    "98 - Calendar/2025-04-04.md",
     "99 - Assets/PAWS.pdf",
-    "05 - Semi-Supervised Learning/Do not trust what you trust. Miscalibration in Semi-supervised Learning.md",
-    "99 - Assets/Do not trust what you trust. Miscalibration in Semi-supervised Learning.pdf",
-    "98 - Calendar/2025-04-02.md",
-    "99 - Assets/(SemiFed) Semi-supervised Federated Learning with Consistency and.pdf",
-    "03 - FedSSL/Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning.md",
-    "05 - Semi-Supervised Learning/Semi-supervised learning. A brief review.md",
-    "05 - Semi-Supervised Learning/(S4L) Self-Supervised Semi-Supervised Learning.md",
     "99 - Assets/png/Exploiting_Unlabeled_Data_on_Server.png",
-    "99 - Assets/FedATA.pdf",
     "removepic.png",
-    "99 - Assets/SelfFed.pdf",
     "99 - Assets/png/FLuID.png",
     "99 - Assets/png/Normal ECG vs Afib.png",
     "99 - Assets/png/Pretext tasks - Color transformation.png"
