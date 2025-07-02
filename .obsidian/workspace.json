@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98 - Calendar/2025-07-02.md",
+                "file": "03 - FedSSL/Overcoming Client Data Deficiency in Federated Learning by Exploiting Unlabeled Data on the Server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-02"
+              "title": "Overcoming Client Data Deficiency in Federated Learning by Exploiting Unlabeled Data on the Server"
+            }
+          },
+          {
+            "id": "6d452d9e85299cf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Summary of FedSSL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Summary of FedSSL"
             }
           },
           {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -250,12 +264,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d7bc37033b920df",
+  "active": "6d452d9e85299cf7",
   "lastOpenFiles": [
+    "03 - FedSSL/Overcoming Client Data Deficiency in Federated Learning by Exploiting Unlabeled Data on the Server.md",
+    "Summary of FedSSL.md",
+    "03 - FedSSL/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.md",
+    "98 - Calendar/2025-07-02.md",
     "Situation.md",
     "Options.md",
     "03 - FedSSL/Federated semi-supervised learning with contrastive representations against noisy labels.md",
-    "98 - Calendar/2025-07-02.md",
     "98 - Calendar/2025-07-01.md",
     "98 - Calendar/2025-06-30.md",
     "Diary of Results.md",
@@ -278,9 +295,6 @@
     "01 - Federated Learning/FedHealth.md",
     "05 - Semi-Supervised Learning/(S4L) Self-Supervised Semi-Supervised Learning.md",
     "98 - Calendar/2025-05-07.md",
-    "98 - Calendar/2025-04-30.md",
-    "98 - Calendar/2025-04-04.md",
-    "05 - Semi-Supervised Learning/FixMatch.md",
     "99 - Assets/FedMatch.pdf",
     "99 - Assets/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.pdf",
     "99 - Assets/FixMatch.pdf",
