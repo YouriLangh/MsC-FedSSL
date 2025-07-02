@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,21 +250,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "433a9bd6bb320e55",
+  "active": "2d7bc37033b920df",
   "lastOpenFiles": [
-    "98 - Calendar/2025-07-02.md",
     "Situation.md",
+    "Options.md",
+    "03 - FedSSL/Federated semi-supervised learning with contrastive representations against noisy labels.md",
+    "98 - Calendar/2025-07-02.md",
     "98 - Calendar/2025-07-01.md",
     "98 - Calendar/2025-06-30.md",
     "Diary of Results.md",
     "New papers.md",
-    "03 - FedSSL/Federated semi-supervised learning with contrastive representations against noisy labels.md",
     "99 - Assets/Federated semi-supervised learning with contrastive representations against.pdf",
     "Untitled",
     "03 - FedSSL/Federated Learning Model Using CBDPL for Medical Image Segmentation.md",
     "99 - Assets/Federated_Learning_model_using_CBDPL_for_Medical_I.pdf",
     "98 - Calendar/2025-04-23.md",
-    "Options.md",
     "03 - FedSSL/FedMatch.md",
     "03 - FedSSL/FedECG.md",
     "03 - FedSSL/FedATA.md",
