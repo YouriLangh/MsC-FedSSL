@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary of FedSSL.md",
+                "file": "98 - Calendar/2025-07-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary of FedSSL"
+              "title": "2025-07-02"
             }
           },
           {
@@ -266,8 +266,8 @@
   },
   "active": "6d452d9e85299cf7",
   "lastOpenFiles": [
-    "03 - FedSSL/Overcoming Client Data Deficiency in Federated Learning by Exploiting Unlabeled Data on the Server.md",
     "Summary of FedSSL.md",
+    "03 - FedSSL/Overcoming Client Data Deficiency in Federated Learning by Exploiting Unlabeled Data on the Server.md",
     "03 - FedSSL/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.md",
     "98 - Calendar/2025-07-02.md",
     "Situation.md",
