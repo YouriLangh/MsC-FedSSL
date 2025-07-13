@@ -1,0 +1,11 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Catppuccin",
+  "textFontFamily": "JetBrains Mono",
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "Colored Sidebar Items - kopie"
+  ],
+  "interfaceFontFamily": "JetBrains Mono"
+}

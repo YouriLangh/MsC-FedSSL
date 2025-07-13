@@ -1,0 +1,58 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"01 - Federated Learning\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"02 - Self-Supervised Learning\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16244549
+      }
+    },
+    {
+      "query": "path:\"03 - FedSSL\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15046979
+      }
+    },
+    {
+      "query": "path:\"04 - Biosignals\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "file:Trial Text",
+      "color": {
+        "a": 1,
+        "rgb": 10443225
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.18462326225858447,
+  "close": true
+}
