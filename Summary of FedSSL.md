@@ -1,3 +1,6 @@
+**DDRFed & CBAFed** use dynamic thresholding + SSL clients
+In our approach we will also keep these labels for X rounds.
+
 Federated Semi-Supervised Learning (FSSL) is a machine learning paradigm that addresses the practical challenge of **training models collaboratively while protecting local data privacy, by leveraging both a small amount of labeled data and a large amount of unlabeled data**. This contrasts with traditional federated learning, which often makes the unrealistic assumption that all clients possess fully labeled data.
 
 Key challenges that FSSL aims to solve include:
@@ -20,7 +23,7 @@ Here is a list summarizing various Federated Semi-Supervised Learning approaches
 - **SemiFed**
     
     - **Core Mechanisms**: Unifies **consistency regularization** (using advanced data augmentation to enforce consistent output distributions under perturbations) and **pseudo-labeling** (generating artificial labels when multiple models from different clients produce high-confidence, agreeing predictions).
-    - **Problems Solved**: Addresses the scenario where data samples of each client are **partially labeled**. Aims to improve model accuracy despite limited labeled examples, and is effective under both homogeneous and **heterogeneous (non-IID) data distribution** settings. It ensures robustness under non-IID data distributions.
+    - **Problems Solved**: Addresses the scenario where data samples of each client are **partially labeled**. Aims to improve model accuracy despite limited labeled examples, and is effective under both homogeneous and **heterogeneous (non-IID) data distribution** settings. It ensures robustness under non-IID data distributions. (It alters the confidence threshold per round apparently)
 - **Benchmarking Semi-supervised Federated Learning (Zhang et al.)**
     
     - **Core Mechanisms**: Empirically evaluates various factors in FSSL. Finds that **Group Normalization (GN) combined with Consistency Regularization Loss (CRL)** yields better generalization. Proposes a **novel grouping-based model averaging method** to improve convergence efficiency and reduce communication when the number of users is large. Introduces a metric `R` (total variation distance) to measure **non-IIDness** in class distributions.

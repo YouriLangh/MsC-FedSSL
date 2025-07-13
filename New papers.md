@@ -23,6 +23,7 @@ https://www.sciencedirect.com/science/article/pii/S2352152X25018651
 https://www.sciencedirect.com/science/article/pii/S156849462500732X
 
 SSL:
+PRIORITY: FlexMatch, FReeMATCH
 FlexMatch!!
 https://minds.wisconsin.edu/handle/1793/60444
 https://link.springer.com/article/10.1007/s10994-019-05855-6
@@ -64,22 +65,3 @@ https://paperswithcode.com/task/semi-supervised-image-classification
 - Cant access the ruder paper due to host error (gives a simple overview of SSL)
 
 ---
-
-Fed-Self-SL
-https://ieeexplore.ieee.org/abstract/document/10535420
-https://ieeexplore.ieee.org/abstract/document/10004993
-https://www.sciencedirect.com/science/article/abs/pii/S0278612523001905
-https://arxiv.org/abs/2205.12493
-https://ieeexplore.ieee.org/abstract/document/10887972
-https://dl.acm.org/doi/abs/10.1016/j.eswa.2024.125493
-https://www.sciencedirect.com/science/article/pii/S0306261925000662
-https://www.nature.com/articles/s41598-024-83972-6
-Fed-MAE
-[10] F. Zhang, et al., Federated unsupervised representation learning, Front. Inf.
-Technol. Electron. Eng. 24 (8) (2023) 1181–1193.
-[11] R. Yan, et al., Label-efficient self-supervised federated learning for tackling data
-heterogeneity in medical imaging, IEEE Trans. Med. Imaging (2023).
-[12] Y. Wu, D. Zeng, Z. Wang, Y. Shi, J. Hu, Distributed contrastive learning for medical
-image segmentation, Med. Image Anal. 81 (2022) 102564.
-
-*Probably do not read Self-SL.*

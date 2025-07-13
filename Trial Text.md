@@ -1,5 +1,7 @@
 FL more concretely refers to all privacy-preserving decentralized collaborative machine learning techniques.
 
+Our core idea: Clients all have their own datasets, mostly unlabeled. The server has access to larger datasets which are not specialized and unlabeled. We split the model up into a backbone and head (head learns faster) and pseudolabels have to pass a certain confidence before they are accepted and used. We adapt this threshold over time. And we can keep these labels for certain amount of time which reflects short term memory. The idea is thta the generalization oof server data and federation of models removes any bias.
+
 Our approach would be cross-silo fl (large institutions with their own datasets)
 Open problems in FL from [[Challenges, methods, and future directions in FL (2020)]] that we aim to tackle & how: Privacy, benchmarking & supervised learning. We aim to tackle all 3 in thesis, namely using Differential privacy, SSL, and 2-sided benchmarking where we try to adhere to accepted standards
 
