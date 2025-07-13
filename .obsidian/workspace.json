@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98 - Calendar/2025-07-12.md",
+                "file": "98 - Calendar/2025-07-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-12"
+              "title": "2025-07-13"
             }
           },
           {
@@ -279,9 +279,13 @@
   },
   "active": "d48c0adbea28c25f",
   "lastOpenFiles": [
-    "removepic.png",
-    "98 - Calendar/2025-07-13.md",
     "98 - Calendar/2025-07-12.md",
+    "98 - Calendar/2025-07-13.md",
+    "98 - Calendar/2025-07-16.md",
+    "98 - Calendar/2025-07-10.md",
+    "98 - Calendar/2025-07-08.md",
+    "98 - Calendar/2025-07-09.md",
+    "removepic.png",
     "98 - Calendar/2025-07-11.md",
     "03 - FedSSL/Federated Learning Model Using CBDPL for Medical Image Segmentation.md",
     "03 - FedSSL/Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning.md",
@@ -291,12 +295,9 @@
     "99 - Assets/FlexMatch.pdf",
     "03 - FedSSL/Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning by Exploring Diffusion Model and All Unlabeled Data.md",
     "05 - Semi-Supervised Learning/FixMatch.md",
-    "98 - Calendar/2025-07-16.md",
-    "98 - Calendar/2025-07-10.md",
     "Content for Presentation.md",
     "Options.md",
     "Situation.md",
-    "98 - Calendar/2025-07-09.md",
     "03 - FedSSL/Federated semi-supervised learning with contrastive representations against noisy labels.md",
     "97 - Utils/Client comparison metrics.md",
     "99 - Assets/png/cm_07-07-2025.png",
@@ -305,7 +306,6 @@
     "99 - Assets/SimonMetrics.png",
     "99 - Assets/png/sup+fed_cm_07-07-2025.png",
     "99 - Assets/png/sup+fed_lc_07-07-2025.png",
-    "98 - Calendar/2025-07-08.md",
     "98 - Calendar/2025-07-07.md",
     "99 - Assets/fix+fed_cm_2cl_08-07-2025.png",
     "99 - Assets/fix+fed_lc_2cl_08-07-2025.png",
