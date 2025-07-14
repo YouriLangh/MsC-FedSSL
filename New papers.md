@@ -36,7 +36,8 @@ https://ieeexplore.ieee.org/abstract/document/9084352
 https://www.sciencedirect.com/science/article/abs/pii/S0950705121000381
 https://arxiv.org/abs/1806.00582
 Most likely all these sources are in the other vault.
-FedProx!!!
+FedProx!!!!!! https://arxiv.org/abs/1812.06127
+
 https://openaccess.thecvf.com/content/CVPR2021/html/Li_Model-Contrastive_Federated_Learning_CVPR_2021_paper.html
 https://www.nowpublishers.com/article/Details/MAL-083
 https://ieeexplore.ieee.org/abstract/document/9743558

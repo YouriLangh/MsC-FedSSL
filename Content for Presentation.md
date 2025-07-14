@@ -22,7 +22,7 @@
 	 - Anything else we prefer not to address as we either find it is addressed softly (privacy) or not within our scope.
 	- we currently use a Resnet18 as it is a reasonably simple model structure, but we might go bac kto ResNet9 to again have simpler results and allow for simpler deduction
 	- We use FedAvg to aggregate weights, though this is not the best approach and perhaps some type of weighted or even gradient approach with weights might be better,; it is simple and allows us to deduce our results.
-
+	- We used to use u_ratio to ensure the samples in a batch are X times more unlabeled than labeled, this caused issues as we didn't use all available labeled batches.
 7. Current progress
 	- All models are made
 	- we performed evaluation to see what was going wrong in our implementation and have gained deepr understanding
