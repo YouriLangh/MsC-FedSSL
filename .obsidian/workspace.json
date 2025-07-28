@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98 - Calendar/2025-07-14.md",
+                "file": "05 - Semi-Supervised Learning/FlexMatch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-14"
+              "title": "FlexMatch"
             }
           },
           {
@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98 - Calendar/2025-07-14.md",
+                "file": "98 - Calendar/2025-08-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-14"
+              "title": "2025-08-01"
+            }
+          },
+          {
+            "id": "e26efd4257bd67bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - FedSSL/Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning by Exploring Diffusion Model and All Unlabeled Data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning by Exploring Diffusion Model and All Unlabeled Data"
+            }
+          },
+          {
+            "id": "238225e094c6cc24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structure text.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Structure text"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -96,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Top-1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,35 +265,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44cddb802c3d109a",
+  "active": "238225e094c6cc24",
   "lastOpenFiles": [
+    "98 - Calendar/2025-08-01.md",
+    "98 - Calendar/2025-07-28.md",
+    "Structure text.md",
+    "03 - FedSSL/Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning by Exploring Diffusion Model and All Unlabeled Data.md",
+    "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
+    "03 - FedSSL/(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning.md",
+    "05 - Semi-Supervised Learning/FlexMatch.md",
+    "Trial Text.md",
     "98 - Calendar/2025-07-16.md",
-    "98 - Calendar/2025-07-14.md",
-    "98 - Calendar/2025-07-13.md",
-    "New papers.md",
-    "99 - Assets/Federated semi-supervised learning with contrastive representations against.pdf",
-    "03 - FedSSL/Federated semi-supervised learning with contrastive representations against noisy labels.md",
-    "03 - FedSSL/FlexMatch.md",
-    "01 - Federated Learning/Challenges, methods, and future directions in FL (2020).md",
+    "Summary of FedSSL.md",
+    "Situation.md",
     "Content for Presentation.md",
+    "Diary of Results.md",
+    "New papers.md",
+    "Options.md",
+    "03 - FedSSL/Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning.md",
+    "98 - Calendar/2025-07-17.md",
+    "99 - Assets/2025-07-16.png",
+    "05 - Semi-Supervised Learning/FixMatch.md",
+    "03 - FedSSL/Federated Learning Model Using CBDPL for Medical Image Segmentation.md",
+    "03 - FedSSL/Federated semi-supervised learning with contrastive representations against noisy labels.md",
+    "98 - Calendar/2025-07-14.md",
+    "98 - Calendar/2025-07-15.md",
+    "99 - Assets/Federated_Learning_model_using_CBDPL_for_Medical_I.pdf",
+    "99 - Assets/Flexmatch 1.pdf",
+    "98 - Calendar/2025-07-13.md",
+    "99 - Assets/Federated semi-supervised learning with contrastive representations against.pdf",
+    "01 - Federated Learning/Challenges, methods, and future directions in FL (2020).md",
     "05 - Semi-Supervised Learning/Do not trust what you trust. Miscalibration in Semi-supervised Learning.md",
     "01 - Federated Learning/FedHealth.md",
-    "01 - Federated Learning/Federated learning review. Fundamentals, enabling technologies, and future applications.md",
-    "01 - Federated Learning/Federated Generative Learning with Foundation Models (2024).md",
-    "01 - Federated Learning/FedCVD.md",
-    "05 - Semi-Supervised Learning/Semi-Supervised Learning.md",
-    "98 - Calendar/2025-07-10.md",
-    "05 - Semi-Supervised Learning/(S4L) Self-Supervised Semi-Supervised Learning.md",
-    "05 - Semi-Supervised Learning/PAWS.md",
-    "05 - Semi-Supervised Learning/FixMatch.md",
     "99 - Assets/png/sup+fed_cm_07-07-2025.png",
-    "98 - Calendar/2025-07-11.md",
-    "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
-    "03 - FedSSL/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.md",
-    "03 - FedSSL/Overcoming Client Data Deficiency in Federated Learning by Exploiting Unlabeled Data on the Server.md",
-    "03 - FedSSL/FedMatch.md",
-    "03 - FedSSL/Federated Learning Model Using CBDPL for Medical Image Segmentation.md",
-    "03 - FedSSL/(SemiFed) Semi-supervised Federated Learning with Consistency and  Pseudo-Labeling.md",
     "removepic.png",
     "99 - Assets/FlexMatch.pdf",
     "99 - Assets/png/cm_07-07-2025.png",
@@ -275,14 +307,11 @@
     "99 - Assets/fix+fed_cm_2cl_08-07-2025.png",
     "99 - Assets/fix+fed_lc_2cl_08-07-2025.png",
     "99 - Assets/fix+fed_lc_08-07-2025.png",
-    "99 - Assets/png/sup_cm_07-07-2025.png",
     "99 - Assets/png",
     "99 - Assets/Zhai_S4L_Self-Supervised_Semi-Supervised_Learning_ICCV_2019_paper.pdf",
     "99 - Assets/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.pdf",
     "99 - Assets/SimCLR.pdf",
     "99 - Assets/Semi_supervised_learning_a_brief_review.pdf",
-    "99 - Assets/SelfFed.pdf",
-    "99 - Assets/Self-supervised representation learning from 12-lead ECG data.pdf",
-    "99 - Assets/RoPAWS.pdf"
+    "99 - Assets/SelfFed.pdf"
   ]
 }

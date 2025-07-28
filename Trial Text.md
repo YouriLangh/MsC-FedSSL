@@ -1,4 +1,4 @@
-FL more concretely refers to all privacy-preserving decentralized collaborative machine learning techniques.
+Look at [[FlexMatch]] notes
 
 Our core idea: Clients all have their own datasets, mostly unlabeled. The server has access to larger datasets which are not specialized and unlabeled. We split the model up into a backbone and head (head learns faster) and pseudolabels have to pass a certain confidence before they are accepted and used. We adapt this threshold over time. And we can keep these labels for certain amount of time which reflects short term memory. The idea is thta the generalization oof server data and federation of models removes any bias.
 

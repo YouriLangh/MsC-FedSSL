@@ -72,3 +72,6 @@ Results:
 **2 client with server only using weights of the first model**
 ![[fix+fed_lc_2cl_08-07-2025.png|500]]
 ![[fix+fed_cm_2cl_08-07-2025.png|500]]
+
+-- 20 07 2025 --
+Trial 18 finished with value: 0.9482949980422862 and parameters: {'lambda_u': 0.10861664382369632, 'threshold_schedule': 'linear', 'lr_backbone': 0.001796602287727979, 'lr_head': 0.0033950709954553163}. Best is trial 18 with value: 0.9482949980422862.
