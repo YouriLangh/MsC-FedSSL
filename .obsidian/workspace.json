@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "New papers.md",
+                "file": "98 - Calendar/2025-08-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "New papers"
+              "title": "2025-08-01"
             }
           },
           {
@@ -83,16 +83,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structure text.md",
+                "file": "98 - Calendar/2025-07-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Structure text"
+              "title": "2025-07-28"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -265,25 +264,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238225e094c6cc24",
+  "active": "fa37048862abb19d",
   "lastOpenFiles": [
+    "98 - Calendar/2025-07-31.md",
     "98 - Calendar/2025-08-01.md",
+    "98 - Calendar/2025-07-30.md",
+    "98 - Calendar/2025-07-16.md",
+    "98 - Calendar/2025-07-17.md",
     "98 - Calendar/2025-07-28.md",
+    "Trial Text.md",
+    "New papers.md",
     "Structure text.md",
     "03 - FedSSL/Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning by Exploring Diffusion Model and All Unlabeled Data.md",
     "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
     "03 - FedSSL/(RSCFed) Random Sampling Consensus Federated Semi-supervised Learning.md",
     "05 - Semi-Supervised Learning/FlexMatch.md",
-    "Trial Text.md",
-    "98 - Calendar/2025-07-16.md",
     "Summary of FedSSL.md",
     "Situation.md",
     "Content for Presentation.md",
     "Diary of Results.md",
-    "New papers.md",
     "Options.md",
     "03 - FedSSL/Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning.md",
-    "98 - Calendar/2025-07-17.md",
     "99 - Assets/2025-07-16.png",
     "05 - Semi-Supervised Learning/FixMatch.md",
     "03 - FedSSL/Federated Learning Model Using CBDPL for Medical Image Segmentation.md",
@@ -295,8 +296,6 @@
     "98 - Calendar/2025-07-13.md",
     "99 - Assets/Federated semi-supervised learning with contrastive representations against.pdf",
     "01 - Federated Learning/Challenges, methods, and future directions in FL (2020).md",
-    "05 - Semi-Supervised Learning/Do not trust what you trust. Miscalibration in Semi-supervised Learning.md",
-    "01 - Federated Learning/FedHealth.md",
     "99 - Assets/png/sup+fed_cm_07-07-2025.png",
     "removepic.png",
     "99 - Assets/FlexMatch.pdf",
