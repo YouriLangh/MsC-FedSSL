@@ -73,5 +73,46 @@ Results:
 ![[fix+fed_lc_2cl_08-07-2025.png|500]]
 ![[fix+fed_cm_2cl_08-07-2025.png|500]]
 
--- 20 07 2025 --
+**-- 20 07 2025 --**
 Trial 18 finished with value: 0.9482949980422862 and parameters: {'lambda_u': 0.10861664382369632, 'threshold_schedule': 'linear', 'lr_backbone': 0.001796602287727979, 'lr_head': 0.0033950709954553163}. Best is trial 18 with value: 0.9482949980422862.
+
+**-- 07-08-2025 --**
+*We currently have model collapse again. When we added the averaging of the head weights, we found that our results worsened significantly. But now, we find that at low labeled data % our SSL model performs worse than the supervised. We only use 1 client to identify how this scenario affects our results. This is on MNIST*
+```
+n_epochs: 2 
+n_clients: 1                   
+n_rounds: 5                       
+labeled_fraction: 0.005           
+client_frac: 1.0                  
+lambda_u: 1.0                  
+u_ratio: 7.0                       
+n_pretrain_rounds: 2            
+backbone_model: "DEBUG"          
+threshold_schedule: "linear"     
+initial_threshold: 0.5         
+final_threshold: 0.95           
+stm: True                        
+stm_ordered_dict: False         
+stm_ttl: 3                       
+stm_max_size: 200                 
+stm_keep_prob: 0.01                  
+backbone_lr: 0.001                
+head_lr: 0.005
+```
+
+It was 0.4 but I now fixed the bug (data was being split in an ordered fashion; so 10% of data = only label 0) and will show the results:
+
+``lambda_u = 0``
+Test Accuracy: 0.8781
+Confusion Matrix:
+[[ 912    0   10    0    0    1   10    2    2    6]
+ [   0 1063   38    3    0    1    4   10    1    0]
+ [   2    0  776   11    9    1    1    9    3   18]
+ [   3    5   54  921    0   53    1   10   12   10]
+ [   3    0   19    0  896    0    7   13    3   32]
+ [  22    0    1   31    3  819   71    4   29   24]
+ [  19    3   23    0   16    2  860    0    3    2]
+ [   1    0   18    3    0    1    0  800    2    4]
+ [  18   64   93   36   23   14    4   60  916   95]
+ [   0    0    0    5   35    0    0  120    3  818]]
+F1 Macro: 0.8785, F1 Weighted: 0.8791, Recall Macro: 0.8789
