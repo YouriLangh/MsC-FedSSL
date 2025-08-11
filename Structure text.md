@@ -64,7 +64,7 @@ If using PTBXL dataset, then mention in thesis that we have to be careful of usi
 - Also mention the adapative threshold choice
 - Argue for normalization perhaps?
 - Argue for our data splitting approach and that rather than ensuring X labels per class this is more realistic
-
+- Explain that we possibly are going to weight ouir losses by their confidences.
 
 
 
