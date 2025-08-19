@@ -1,0 +1,19 @@
+
+- [x] Move meeting to thursday ✅ 2025-08-16
+- [ ] Probably have to Optuna tune the STM size
+- [ ] Do tests with cifar10 also
+- [x] Use Cuda for code ✅ 2025-08-18
+- [x] Make shell script to split the jobs. ✅ 2025-08-18
+- [x] Paths are wrong on HPC ✅ 2025-08-16
+- [x] Send mail to simon ✅ 2025-08-14
+- [x] Validation with optuna & k-fold ✅ 2025-08-14
+- [x] Unravel the non-iid datasets ✅ 2025-08-14
+- [x] Fix normalization bug ✅ 2025-08-13
+- [x] Normalize data in the other baselines ✅ 2025-08-13
+- [x] Fix other baselines with new datasets ✅ 2025-08-13
+- [ ] **Revisit all code n make sure no bugs**
+- [x] I think the indices are wrong for the datasets. ✅ 2025-08-13
+- [ ] In the future, remove some of the baselines and replace with arguments? Baseline3 is not needed, if baseline 2 with 1 client. & Same goes for baseline 2.
+- [x] Perhaps adjust multi run to init datasets at every iter, perhaps the data is getting altered as the pretrain losses != ✅ 2025-08-16
+- [x] I think the low performance is due to FixMatch using cycling over smallest dataset rather than just going over rit once. ✅ 2025-08-14
+- [ ] Read FixMatch

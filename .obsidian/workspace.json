@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fdade453eaecac9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diary of Results.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diary of Results"
-            }
-          },
-          {
             "id": "77149c25be34b3c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structure text.md",
+                "file": "98 - Calendar/2025-08-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Structure text"
-            }
-          },
-          {
-            "id": "e26efd4257bd67bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "98 - Calendar/2025-08-08.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-08"
-            }
-          },
-          {
-            "id": "bfd10f05bf27ff53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Store tests.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Store tests"
+              "title": "2025-08-13"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Top-1",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,6 +87,7 @@
       {
         "id": "c2ee039f15e3f2e0",
         "type": "tabs",
+        "dimension": 38.62536302032914,
         "children": [
           {
             "id": "99fed5cb2fe433c1",
@@ -208,8 +166,30 @@
         "currentTab": 4
       },
       {
+        "id": "ce15712d0c932a84",
+        "type": "tabs",
+        "dimension": 34.65634075508229,
+        "children": [
+          {
+            "id": "fdade453eaecac9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "97 - Utils/TODOs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODOs"
+            }
+          }
+        ]
+      },
+      {
         "id": "a4b5c8cfc72e5d31",
         "type": "tabs",
+        "dimension": 26.718296224588574,
         "children": [
           {
             "id": "c6e76de10b9d4431",
@@ -237,11 +217,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e26efd4257bd67bf",
+  "active": "77149c25be34b3c7",
   "lastOpenFiles": [
-    "Store tests.md",
+    "97 - Utils/TODOs.md",
+    "98 - Calendar/2025-08-13.md",
     "98 - Calendar/2025-08-08.md",
     "Diary of Results.md",
+    "Untitled.canvas",
+    "Store tests.md",
+    "Trial Text.md",
+    "Situation.md",
     "Structure text.md",
     "98 - Calendar/2025-08-07.md",
     "98 - Calendar/2025-08-06.md",
@@ -265,10 +250,6 @@
     "98 - Calendar/2025-07-09.md",
     "98 - Calendar/2025-07-10.md",
     "98 - Calendar/2025-07-17.md",
-    "98 - Calendar/2025-07-30.md",
-    "98 - Calendar/2025-07-16.md",
-    "Trial Text.md",
-    "New papers.md",
     "99 - Assets/2025-07-16.png",
     "99 - Assets/Federated_Learning_model_using_CBDPL_for_Medical_I.pdf",
     "99 - Assets/Flexmatch 1.pdf",
