@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98 - Calendar/2025-08-13.md",
+                "file": "Diary of Results.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-13"
+              "title": "Diary of Results"
             }
           }
         ]
@@ -219,8 +219,11 @@
   },
   "active": "77149c25be34b3c7",
   "lastOpenFiles": [
-    "97 - Utils/TODOs.md",
+    "New papers.md",
+    "Options.md",
     "98 - Calendar/2025-08-13.md",
+    "removepic.png",
+    "97 - Utils/TODOs.md",
     "98 - Calendar/2025-08-08.md",
     "Diary of Results.md",
     "Untitled.canvas",
@@ -248,14 +251,11 @@
     "03 - FedSSL/(FedLID) Self-Supervised Federated Learning for Leveraging Limited Image Data.md",
     "98 - Calendar/2025-07-31.md",
     "98 - Calendar/2025-07-09.md",
-    "98 - Calendar/2025-07-10.md",
-    "98 - Calendar/2025-07-17.md",
     "99 - Assets/2025-07-16.png",
     "99 - Assets/Federated_Learning_model_using_CBDPL_for_Medical_I.pdf",
     "99 - Assets/Flexmatch 1.pdf",
     "99 - Assets/Federated semi-supervised learning with contrastive representations against.pdf",
     "99 - Assets/png/sup+fed_cm_07-07-2025.png",
-    "removepic.png",
     "99 - Assets/FlexMatch.pdf",
     "99 - Assets/png/cm_07-07-2025.png",
     "99 - Assets/fix+fed_cm_08-07-2025.png",
