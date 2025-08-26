@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary of Results.md",
+                "file": "98 - Calendar/2025-08-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diary of Results"
+              "title": "2025-08-26"
             }
           }
         ]
@@ -219,13 +219,15 @@
   },
   "active": "77149c25be34b3c7",
   "lastOpenFiles": [
+    "Diary of Results.md",
+    "98 - Calendar/2025-08-26.md",
+    "Untitled",
     "New papers.md",
     "Options.md",
     "98 - Calendar/2025-08-13.md",
     "removepic.png",
     "97 - Utils/TODOs.md",
     "98 - Calendar/2025-08-08.md",
-    "Diary of Results.md",
     "Untitled.canvas",
     "Store tests.md",
     "Trial Text.md",
@@ -250,7 +252,6 @@
     "98 - Calendar/2025-07-28.md",
     "03 - FedSSL/(FedLID) Self-Supervised Federated Learning for Leveraging Limited Image Data.md",
     "98 - Calendar/2025-07-31.md",
-    "98 - Calendar/2025-07-09.md",
     "99 - Assets/2025-07-16.png",
     "99 - Assets/Federated_Learning_model_using_CBDPL_for_Medical_I.pdf",
     "99 - Assets/Flexmatch 1.pdf",
@@ -264,7 +265,6 @@
     "99 - Assets/fix+fed_cm_2cl_08-07-2025.png",
     "99 - Assets/fix+fed_lc_2cl_08-07-2025.png",
     "99 - Assets/png",
-    "99 - Assets/Zhai_S4L_Self-Supervised_Semi-Supervised_Learning_ICCV_2019_paper.pdf",
-    "99 - Assets/Towards Utilizing Unlabeled Data in Federated Learning. A Survey and  Prospective.pdf"
+    "99 - Assets/Zhai_S4L_Self-Supervised_Semi-Supervised_Learning_ICCV_2019_paper.pdf"
   ]
 }
