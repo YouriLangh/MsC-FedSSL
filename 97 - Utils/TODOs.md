@@ -1,5 +1,6 @@
 
 - [x] Move meeting to thursday ✅ 2025-08-16
+- [ ] <span style="color:rgb(255, 0, 0)">DO NOT FORGET TO ALTER DIR IN SAVE_RESULTS!!!! AND HYPERPARAMCONFIG</span>
 - [ ] Probably have to Optuna tune the STM size
 - [ ] Do tests with cifar10 also
 - [x] Use Cuda for code ✅ 2025-08-18

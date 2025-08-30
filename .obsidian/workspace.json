@@ -209,6 +209,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -219,14 +220,14 @@
   },
   "active": "77149c25be34b3c7",
   "lastOpenFiles": [
-    "Diary of Results.md",
+    "97 - Utils/TODOs.md",
     "98 - Calendar/2025-08-26.md",
+    "Diary of Results.md",
     "Untitled",
     "New papers.md",
     "Options.md",
     "98 - Calendar/2025-08-13.md",
     "removepic.png",
-    "97 - Utils/TODOs.md",
     "98 - Calendar/2025-08-08.md",
     "Untitled.canvas",
     "Store tests.md",
