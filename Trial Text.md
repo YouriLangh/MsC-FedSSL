@@ -1,14 +1,16 @@
-Look at [[FlexMatch]] notes
+Look at [[05 - Semi-Supervised Learning/FlexMatch]] notes
+
+We observedfrom [[Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] that optuna tuning is not recommended for threshold, and that we urge the scientific community to not use it as it basically just overfits & uses alot of resources.
 
 Our core idea: Clients all have their own datasets, mostly unlabeled. The server has access to larger datasets which are not specialized and unlabeled. We split the model up into a backbone and head (head learns faster) and pseudolabels have to pass a certain confidence before they are accepted and used. We adapt this threshold over time. And we can keep these labels for certain amount of time which reflects short term memory. The idea is thta the generalization oof server data and federation of models removes any bias.
 
 Our approach would be cross-silo fl (large institutions with their own datasets)
-Open problems in FL from [[Challenges, methods, and future directions in FL (2020)]] that we aim to tackle & how: Privacy, benchmarking & supervised learning. We aim to tackle all 3 in thesis, namely using Differential privacy, SSL, and 2-sided benchmarking where we try to adhere to accepted standards
+Open problems in FL from [[(A) Challenges, methods, and future directions in FL (2020)]] that we aim to tackle & how: Privacy, benchmarking & supervised learning. We aim to tackle all 3 in thesis, namely using Differential privacy, SSL, and 2-sided benchmarking where we try to adhere to accepted standards
 
-When talking about FL, all the papers can be used in FL, but this one too [[Federated learning review. Fundamentals, enabling technologies, and future applications]]
+When talking about FL, all the papers can be used in FL, but this one too [[01 - Federated Learning/Federated learning review. Fundamentals, enabling technologies, and future applications]]
 Don't forget to use the original paper of McMahan & Ramage 2015 (introduced), follow ups: 2016, or 2017
 
-Applications of FL: [[Federated learning review. Fundamentals, enabling technologies, and future applications]]
+Applications of FL: [[01 - Federated Learning/Federated learning review. Fundamentals, enabling technologies, and future applications]]
 
 Apparently in SSL, the amount of incorrect pseudolabels being incorporated into the training is not negligble and impacts performance [[Do not trust what you trust. Miscalibration in Semi-supervised Learning]]
 
@@ -59,3 +61,22 @@ AND for FL theres also local training-oriented methods vs model aggregation orie
 If using dynamic threshold, look at [[Class Balanced Adaptive Pseudo Labeling for Federated Semi-Supervised Learning]] again
 
 Do we do labels-at-client??
+
+
+Discussion:
+ drop_last=True sinec we had a crash in labeled loader.
+ If input channels < 3 then issue --> we give it 3 channels and just putrepeat same in 2 new channels.
+
+Applications of FL: Image segmentation
+Several researches have investigated on dynamic threshold in related fields such as sentiment anal
+ysis
+[40] and semantic segmentation [41]. In [40], the threshold was gradually reduced to make
+high-quality data selected into labeled data set in the early stage and large-quantity in the later stage.
+An extra classifier is added to automate the threshold to deal with domain inconsistency in [41]. [42]
+introduced curriculum learning to self-training with a steadily increasing threshold and achieved near
+state-of-the-art results.
+
+
+FedGGd assumes some are fully unlabeled & some fully labeled.
+CBAFed assumes
+

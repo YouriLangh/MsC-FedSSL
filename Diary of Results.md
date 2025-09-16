@@ -243,3 +243,67 @@ Confusion Matrix:
 F1 Macro: 0.0566, F1 Weighted: 0.0555, Recall Macro: 0.1239
 
 *Removing the STM+ working loader bs to see if supervised loss improves. We collapsed still, but perhaps i had a bug with workingloader = labeled_loader type shit*
+
+**---- 05-09-2025 [Post Pieter Meeting] ----**
+To investigate the effectiveness of our architecture, we performed several tests in different scenarios. These scenarios show how the test performance of the global model changes over different lambda_u values (0; 0.5; 1). We compare the performance of these global models for clients with different labeled_fractions. Each graph shows a certain data distribution per client, non-IID to IID ($alpha$ = 0.1, 0.5, IID).
+This means that in a specific data distribution scenario, we will visualize the performance of each global model for clients with different fractions of labels for their data across different lambda_u values.
+![[Diary of Results - Test1-4.png|500]]
+The red line indicates a labeled_fraction of 1, where each client has access to all the labels of its dataset. As the X-axis shows the effect over different lambda_u values, this line should remain stable for all x-axis values. Any case where this is not the case should be seen as random variance and will be investigated further. The colors indicate the labeled_fraction with darker indicating access to more labels. We urge the readers to observe that the axes are NOT the same value across graphs. (A chart with these same axes will be given in the appendix)
+![[Diary of Results - Test1-4Shared.png|500]]
+
+*Test 2:* For the "first" test, we investigate the general simplified scenario where our architecture consists of 10 clients over 10 rounds where each client trains for 10 epochs. 
+- **IID:** We find that the global model performance in the iid case collapses. We not that this is most likely due to the fact that the individual feature extractors of each client are more distinct and this small might cause collapse? Due to this collapse, we see that the parts where each client has access to less labels has an accuracy of around 0.8. Where the performance increases for labeled_fraction going up.
+> Needs more investigation (labeled_fraction = 1 seems off.)
+- **Non-IID (0.1):** We note that our model performs worse in non-IID situations and that a mixed trend is observed by increasing the weight of the unsupervised loss. This means either the SSL aspect or FedAvg is not functioning in this scenario. Most likely both have a negative effect.
+- **Non-IID (0.5):** Here the trends for increasing the unsupervised loss are still mixed but mostly negative. Most cases where the labeled_fraction is lower than 1 actually outperform the baseline which requires further investigation.
+From this we conclude that the performance of the architecture is significantly worse in the non-IID case in lower round scenarios which can be attributed to either FedAvg or SSL.
+
+*Test 4:* Due to these extremely varying results, we investigate that the code actually works by running the same test but with a single client. This eliminates the FedAvg dependency and allows us to focus on correctness of data distribution & SSL.
+We find that labeled_fraction = 1 actually now shows as an upper baselines as is expected in all scenarios.
+We note that across all IID scenarios, increasing the lambda_u can have a positive effect, though not monotonically. We see signficant improvements in the performance at lambda_u = 0.5. This means that it is a tunable parameter which can differ per scenario. We still see performance degradation in the non-IID case, but the performance is extremely close. We see this similarly to
+
+[[Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] 
+> Does mention that the model degradation due to choice of confidence threshold does not follow a consistent pattern.
+"As labeled dataset size decreases, the optimal threshold
+becomes increasingly unpredictable"
+
+Who found that increasing the threshold has an inconsistent pattern with model performance, we note that this is also the case for FedSSL.
+
+This allows us to see that each individual client actually is able to learn the representation correctly and that SSL has a positive influence. FedAvg on the other hand struggles to create a correct model in higher client numbers and non-IID environments as can be seen in *Test 3*. Significant performance degradation again in non-IID cases but we outperform the baseline in some cases at IID. Though this does not directly refute the statements made in [[(A) Federated Learning Original]] about FedAvg being built for non-IID cases, as they require many rounds. We therefore test our model in higher round scenarios.
+
+Before we can get to that, we investigate whether our custom featuer (STM) has a positive effect. We note that the effects are marginally improving the performance with one notable improvement for lf=0.01 in iid where it goes from 0.2 to 0.6. Other than that the results are mixed.
+[[(A) Federated learning with non-iid data]] says: "We further show that this accuracy reduction
+can be explained by the weight divergence"
+
+*100 Round test:* We continue the same test (but with STM on) for 2 clients over 100 rounds.
+![[Diary of Results Test5-valaccfixed.png]]
+In this chart we show the validation accuracy per round of the global model after aggregating the weights of the client models. We see that after pretraining (a certain number of rounds where only labeled data is used to train the client models), a degredation of performance can be found. This degradation is way more pronounced in non-IID cases, showing again that FedAvg struggles in non-IID environments. We see that the model stabilizes and does not improve over the 100 rounds, showing that the performance completely depends on the pretraining rounds. However, for the non-IID case, we see that perhaps this drop can be reduced by adapting a different averaging system other than FedAvg. 
+
+[[(A) Federated learning with non-iid data]] aldo found a decrease in performance for non iid m,ist up to 11%; 51 for cifar
+
+We ran the same test for 3 clients:
+![[Diary of Results 100rounds-valacc 3clients.png]]
+Here we again observe the degradation in performance once we start using unlabeled samples, but the variance over time is way larger, with a sometimes a positive trend. To further investigate how the architecture works, we run the same test but for 200 rounds, to confirm whether ([[(A) Federated Learning Original]]) FedAvg also works in non-IID environments for low-labeled scenarios.
+
+We ifnd a positive/mixed trend over time for the non-IID situations, in IID  situations we note a negative correlation between the increase in rounds and the accuracy.
+
+
+This test is only performed for 3 clients:
+![[Diary of Results - 200 rounds fixed.png]]
+We again ifnd the same variance as we did before with a positive trend over time for the non-IID situations, in IID  situations we note a negative correlation between the increase in rounds and the accuracy.
+
+
+Finally for this final test, we also look at the losses of each client:
+![[Diary of Results - Losses.png]]
+This is for the non-iid case with lu=0.5. As the model performance is relatively low, we find that the model is overfitting extremely hard. Perhaps we can decrease the number of epochs at each client though [[(A) Federated Learning Original]] did note:
+> "Batch-size = 10, more epochs (20) is best"
+
+
+> This might need to be somewhere:
+> [[Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] Does mention that the model degradation due to choice of confidence threshold does not follow a consistent pattern.
+"As labeled dataset size decreases, the optimal threshold
+becomes increasingly unpredictable"
+
+> Importantly we note that: we are not using any pretrained weights & none of the hyperparameters have been tuned optimally, just random hyperparams, perhaps we can improve everything. Due to the fact that most of these hyperparameters are extremely situation-dependent & inconsistent in tuning.
+
+

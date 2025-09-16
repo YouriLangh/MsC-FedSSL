@@ -3,18 +3,7 @@ Meeting:
 [1811.04820](https://arxiv.org/pdf/1811.04820)
 
 FedSSL
-https://link.springer.com/article/10.1007/s40747-022-00894-4
-https://ieeexplore.ieee.org/abstract/document/10936585
-https://ieeexplore.ieee.org/abstract/document/10937897
-https://arxiv.org/abs/2006.12097 odd journal, fedmatch
-https://arxiv.org/abs/2109.04533 no journal, preprint
-http://onlinelibrary.wiley.com/doi/abs/10.1002/nem.2222
-https://arxiv.org/abs/2012.03292 no journal
-https://arxiv.org/abs/2108.09412 no jorunal
-https://ieeexplore.ieee.org/abstract/document/10121665
-https://ieeexplore.ieee.org/abstract/document/9950359
-https://ieeexplore.ieee.org/abstract/document/10012038
-[Model-Contrastive Federated Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Model-Contrastive_Federated_Learning_CVPR_2021_paper.pdf)
+[
 FedConsist and FedIRM --> dont assume non-iid
 https://openreview.net/forum?id=1GAjC_FauE
 After exams:

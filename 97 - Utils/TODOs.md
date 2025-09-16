@@ -1,5 +1,15 @@
 
 - [x] Move meeting to thursday ✅ 2025-08-16
+- [ ] Read UNIMatch
+- [ ] Fix code using [[(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling]]
+- [x] Make a story of the results in a document for overleaf ✅ 2025-09-05
+- [ ] Perform all the tests of [[2025-09-05]]
+- [ ] Alter augmentations?
+- [ ] Look into weight initilizations of clients?
+- [ ] Fix all the old viz code from past as new folder structure
+- [ ] Split the clients to different parts of a gpu or different cpus with pytorch distributed
+- [x] Fix colors of last chart. Too confusing ✅ 2025-09-01
+- [ ] Review results again from thesis
 - [ ] <span style="color:rgb(255, 0, 0)">DO NOT FORGET TO ALTER DIR IN SAVE_RESULTS!!!! AND HYPERPARAMCONFIG</span>
 - [ ] Probably have to Optuna tune the STM size
 - [ ] Do tests with cifar10 also
