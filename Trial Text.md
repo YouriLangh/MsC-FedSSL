@@ -1,11 +1,11 @@
 Look at [[05 - Semi-Supervised Learning/FlexMatch]] notes
 
-We observedfrom [[Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] that optuna tuning is not recommended for threshold, and that we urge the scientific community to not use it as it basically just overfits & uses alot of resources.
+We observedfrom [[(A) Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] that optuna tuning is not recommended for threshold, and that we urge the scientific community to not use it as it basically just overfits & uses alot of resources.
 
 Our core idea: Clients all have their own datasets, mostly unlabeled. The server has access to larger datasets which are not specialized and unlabeled. We split the model up into a backbone and head (head learns faster) and pseudolabels have to pass a certain confidence before they are accepted and used. We adapt this threshold over time. And we can keep these labels for certain amount of time which reflects short term memory. The idea is thta the generalization oof server data and federation of models removes any bias.
 
 Our approach would be cross-silo fl (large institutions with their own datasets)
-Open problems in FL from [[(A) Challenges, methods, and future directions in FL (2020)]] that we aim to tackle & how: Privacy, benchmarking & supervised learning. We aim to tackle all 3 in thesis, namely using Differential privacy, SSL, and 2-sided benchmarking where we try to adhere to accepted standards
+Open problems in FL from [[Challenges, methods, and future directions in FL (2020)]] that we aim to tackle & how: Privacy, benchmarking & supervised learning. We aim to tackle all 3 in thesis, namely using Differential privacy, SSL, and 2-sided benchmarking where we try to adhere to accepted standards
 
 When talking about FL, all the papers can be used in FL, but this one too [[01 - Federated Learning/Federated learning review. Fundamentals, enabling technologies, and future applications]]
 Don't forget to use the original paper of McMahan & Ramage 2015 (introduced), follow ups: 2016, or 2017
@@ -77,6 +77,18 @@ introduced curriculum learning to self-training with a steadily increasing thres
 state-of-the-art results.
 
 
+Applications from [[(A) (UNIMatch) Revisiting Weak-to-Strong Consistency  in Semi-Supervised Semantic Segmentation]]:
+Apart from semi-supervised classification, the methodol
+ogy
+in FixMatch has swept across a wide range of research
+topics and achieved booming success, such as semantic seg
+mentation
+[19, 28, 81], object detection [42, 57, 66], unsuper
+vised
+domain adaptation [45], and action recognition [62,67].
+
 FedGGd assumes some are fully unlabeled & some fully labeled.
 CBAFed assumes
 
+
+Do we use pseudo supervision or pseudo labeling?

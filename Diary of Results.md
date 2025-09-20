@@ -262,7 +262,7 @@ From this we conclude that the performance of the architecture is significantly 
 We find that labeled_fraction = 1 actually now shows as an upper baselines as is expected in all scenarios.
 We note that across all IID scenarios, increasing the lambda_u can have a positive effect, though not monotonically. We see signficant improvements in the performance at lambda_u = 0.5. This means that it is a tunable parameter which can differ per scenario. We still see performance degradation in the non-IID case, but the performance is extremely close. We see this similarly to
 
-[[Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] 
+[[(A) Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] 
 > Does mention that the model degradation due to choice of confidence threshold does not follow a consistent pattern.
 "As labeled dataset size decreases, the optimal threshold
 becomes increasingly unpredictable"
@@ -300,7 +300,7 @@ This is for the non-iid case with lu=0.5. As the model performance is relatively
 
 
 > This might need to be somewhere:
-> [[Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] Does mention that the model degradation due to choice of confidence threshold does not follow a consistent pattern.
+> [[(A) Feedback-Driven Pseudo-Label Reliability Assessment. Redefining Thresholding for Semi-Supervised Semantic Segmentation]] Does mention that the model degradation due to choice of confidence threshold does not follow a consistent pattern.
 "As labeled dataset size decreases, the optimal threshold
 becomes increasingly unpredictable"
 

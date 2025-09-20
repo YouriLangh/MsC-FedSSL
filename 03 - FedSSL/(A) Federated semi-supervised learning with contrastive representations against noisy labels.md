@@ -1,5 +1,7 @@
 #FedSSL 
 
+` Haven't reread yet. 
+
 This paper offers a good summary of the state of the art and what approaches fail at what/should be revised.
 
 *Summary of training after pdf.*

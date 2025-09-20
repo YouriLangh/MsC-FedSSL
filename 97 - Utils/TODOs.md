@@ -1,6 +1,6 @@
 
 - [x] Move meeting to thursday ✅ 2025-08-16
-- [ ] Read UNIMatch
+- [x] Read UNIMatch ✅ 2025-09-17
 - [ ] Fix code using [[(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling]]
 - [x] Make a story of the results in a document for overleaf ✅ 2025-09-05
 - [ ] Perform all the tests of [[2025-09-05]]

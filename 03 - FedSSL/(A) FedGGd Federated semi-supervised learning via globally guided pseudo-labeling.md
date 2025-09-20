@@ -15,6 +15,7 @@ ticipate
 in each communication round"
 
 500 round limit!!
+the **labeling rate for partially labeled clients is set to 0.05**
 
 This paper has FedAvg+Fixmatch!! Look at their impl.
 
