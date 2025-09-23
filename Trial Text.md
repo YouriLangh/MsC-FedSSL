@@ -92,3 +92,19 @@ CBAFed assumes
 
 
 Do we use pseudo supervision or pseudo labeling?
+
+
+- You’re essentially implementing **Self-Training + FixMatch**.
+    
+- This is a valid and even popular extension (some papers call it _progressive labeling_ or _pseudo-label refinement_
+
+Note: We COULD schedule the threshold based on the number of rounds, but we chose to remove this.
+
+Note: We use a threshold based on rounds x epochs to persistently adapt the threshold.
+
+In the STM, we add new samples either:
+- Ordered dict mode and has to be higher confidence and has to pass the probability;
+- Not ordered dict mode, we replace the existing same idx with probabiltiy 
+
+If idx in buffer: Replace only if higher confidence for ordered dict mode or not using ordered dict mode (always replace)
+else:  # Add new entry if buffer is not full. If we are using ordered dict mode then we can add as much as we want as we will sort and trim later.
