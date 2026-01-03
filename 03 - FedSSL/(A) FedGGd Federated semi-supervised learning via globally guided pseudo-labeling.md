@@ -20,6 +20,30 @@ the **labeling rate for partially labeled clients is set to 0.05**
 This paper has FedAvg+Fixmatch!! Look at their impl.
 
 
+| Class group        | Threshold | Weight     | Contribution strength |
+| ------------------ | --------- | ---------- | --------------------- |
+| **A (head)**       | High      | ≈ 1 (hard) | Strong, selective     |
+| **D (tail)**       | Low       | ≈ 1 (hard) | Strong, frequent      |
+| **Am (ambiguous)** | Medium    | < 1 (soft) | Weak, stabilizing     |
+## 3. How are probabilities aggregated on the client?
+
+Each client builds a **class-wise accumulation vector** Qk∈RCQ_k \in \mathbb{R}^CQk​∈RC.
+
+For every unlabeled sample xxx that passes the threshold:
+
+#### $Q_k[c] += w_x * p_c(x)$ 
+
+So:
+
+- Head/tail-class samples (hard weight ≈ 1) contribute almost fully
+    
+- Ambiguous-class samples (soft weight < 1) contribute fractionally
+    
+- Rejected samples contribute nothing
+    
+
+This accumulation is done **over all local unlabeled samples** (or over mini-batches, equivalently).
+
 FedGGp (Federated Globally Guided pseudo-labeling) is a federated semi-supervised learning method designed for label-scarce and non-IID settings. Its main features are:
 
 - **Global prediction assessment:** It builds a global prediction vector (Φ) on the server to measure class-wise prediction bias across all clients, instead of relying on each client's biased local predictions.

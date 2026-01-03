@@ -8,91 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6cb41e8d10699ac8",
+            "id": "431c30b761fdea62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Federated Learning/(A) A review of applications in federated learning.md",
+                "file": "98 - Calendar/2025-12-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(A) A review of applications in federated learning"
+              "title": "2025-12-24"
             }
           },
           {
-            "id": "fa5c6cfe39fadeec",
+            "id": "3b999555260c77e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - FedSSL/(A) RSCFed.md",
+                "file": "03 - FedSSL/(A) Federated Learning Model Using CBDPL for Medical Image Segmentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(A) RSCFed"
+              "title": "(A) Federated Learning Model Using CBDPL for Medical Image Segmentation"
             }
           },
           {
-            "id": "67d534f37ce579af",
+            "id": "0e53fc57acee04e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - FedSSL/(A) FedIRM.md",
+                "file": "FSSL SOTA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(A) FedIRM"
+              "title": "FSSL SOTA"
             }
           },
           {
-            "id": "7231916767d6b1bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Benchmarking-Semi-supervised-Federated-Learning"
-            }
-          },
-          {
-            "id": "a953dbcf2038a961",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05 - Semi-Supervised Learning/Do not trust what you trust. Miscalibration in Semi-supervised Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Do not trust what you trust. Miscalibration in Semi-supervised Learning"
-            }
-          },
-          {
-            "id": "7db725072b475d03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "98 - Calendar/2025-09-19.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-09-19"
-            }
-          },
-          {
-            "id": "6c76556e4b10e4e6",
+            "id": "a3acf1a7e2cb3eb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,49 +64,49 @@
             }
           },
           {
-            "id": "69acdad2dbf3d64d",
+            "id": "46c1a32a5d3ea1d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - FedSSL/(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling.md",
+                "file": "98 - Calendar/2025-12-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling"
+              "title": "2025-12-24"
             }
           },
           {
-            "id": "5b180c474358cc7d",
+            "id": "2a28de32f475afea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98 - Calendar/2025-09-24.md",
+                "file": "98 - Calendar/2025-12-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-24"
+              "title": "2025-12-15"
             }
           },
           {
-            "id": "281ed3cd119e83e6",
+            "id": "6a2ddfd2b4d2c7b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - FedSSL/(A) FedMatch.md",
+                "file": "98 - Calendar/2025-12-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(A) FedMatch"
+              "title": "2025-12-11"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -332,7 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 227
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -345,54 +303,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b180c474358cc7d",
+  "active": "46c1a32a5d3ea1d3",
   "lastOpenFiles": [
-    "Trial Text.md",
-    "98 - Calendar/2025-09-24.md",
-    "98 - Calendar/2025-09-19.md",
+    "FSSL SOTA.md",
+    "98 - Calendar/2025-12-24.md",
+    "98 - Calendar/2025-12-21.md",
     "05 - Semi-Supervised Learning/(A) FixMatch.md",
-    "Fixmatch hyperparams.md",
-    "03 - FedSSL/(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling.md",
-    "97 - Utils/TODOs.md",
-    "98 - Calendar/2025-09-20.md",
-    "01 - Federated Learning/(A) A review of applications in federated learning.md",
-    "99 - Assets/2025-09-20.png",
-    "03 - FedSSL/(A) SemiFed.md",
-    "03 - FedSSL/(A) FedMatch.md",
-    "03 - FedSSL/(A) Federated semi-supervised learning with contrastive representations against noisy labels.md",
-    "03 - FedSSL/(A) RSCFed.md",
-    "03 - FedSSL/(A) Learn from Others and Be Yourself in Heterogeneous Federated Learning.md",
-    "03 - FedSSL/(A) FedIRM.md",
     "03 - FedSSL/(A) Federated Learning Model Using CBDPL for Medical Image Segmentation.md",
-    "03 - FedSSL/(A) CBAFed.md",
-    "01 - Federated Learning/(A) Federated Learning on Non-IID Data Silos. An Experimental Study.md",
-    "05 - Semi-Supervised Learning/(A) A Survey on Deep Semi-Supervised Learning.md",
-    "01 - Federated Learning/(A) FedCD.md",
-    "01 - Federated Learning/(A) Astraea.md",
-    "Papers to read.md",
+    "03 - FedSSL/(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling.md",
+    "98 - Calendar/2025-12-16.md",
+    "Testing framework.md",
+    "03 - FedSSL/(A) Federated semi-supervised learning with contrastive representations against noisy labels.md",
     "Structure text.md",
-    "03 - FedSSL/Benchmarking-Semi-supervised-Federated-Learning.md",
-    "98 - Calendar/2025-09-17.md",
-    "05 - Semi-Supervised Learning/(A) MixMatch.md",
-    "99 - Assets/pseudo_label_final.pdf",
-    "99 - Assets/Astraea.pdf",
-    "99 - Assets/Yang_Revisiting_Weak-to-Strong_Consistency_in_Semi-Supervised_Semantic_Segmentation_CVPR_2023_paper.pdf",
+    "03 - FedSSL/(A) CBAFed.md",
+    "98 - Calendar/2025-12-15.md",
+    "98 - Calendar/2025-11-07.md",
+    "98 - Calendar/2025-11-12.md",
+    "98 - Calendar/2025-11-14.md",
+    "98 - Calendar/2025-11-18.md",
+    "98 - Calendar/2025-11-19.md",
+    "98 - Calendar/2025-11-20.md",
+    "98 - Calendar/2025-11-21.md",
+    "98 - Calendar/2025-11-22.md",
+    "98 - Calendar/2025-11-23.md",
+    "98 - Calendar/2025-11-29.md",
+    "98 - Calendar/2025-12-06.md",
+    "98 - Calendar/2025-12-10.md",
+    "98 - Calendar/2025-12-09.md",
+    "98 - Calendar/2025-12-11.md",
+    "99 - Assets/(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling.png",
+    "99 - Assets/FSSL SOTA.png",
+    "99 - Assets/FreeMatch.pdf",
     "99 - Assets/FixMatch.pdf",
-    "99 - Assets/Federated semi-supervised learning via globally guided pseudo-labeling 1.pdf",
-    "99 - Assets/SemiFed.pdf",
-    "99 - Assets/Federated_Learning_model_using_CBDPL_for_Medical_I 1.pdf",
-    "99 - Assets/FedCD. Improving Performance in non-IID Federated Learning.pdf",
-    "99 - Assets/Feedback-Driven Pseudo-Label Reliability Assessment.pdf",
+    "99 - Assets/Federated_Learning_Original.pdf",
+    "99 - Assets/A state-of-the-art survey on solving non-IID data in FL 1.pdf",
+    "99 - Assets/Federated learning review. Fundamentals, enabling technologies, and future applications.pdf",
+    "Untitled.base",
+    "99 - Assets/FlexMatch 2.pdf",
+    "99 - Assets/Challenges, Methods, and Future Directions in FL.pdf",
+    "99 - Assets/A survey on federated learning.pdf",
+    "99 - Assets/A review of applications of FL.pdf",
+    "99 - Assets/2025-11-07.png",
+    "99 - Assets/2025-11-01.png",
+    "99 - Assets/2025-09-20.png",
     "99 - Assets/(A) RSCFed.png",
-    "99 - Assets/Liang_RSCFed_Random_Sampling_Consensus_Federated_Semi-Supervised_Learning_CVPR_2022_paper 1.pdf",
     "99 - Assets/(A) FedMatch.png",
     "99 - Assets/(A) Towards Utilizing Unlabeled Data in Federated Learning. A Survey and Prospective.png",
     "99 - Assets/CBAFed.png",
     "Untitled.canvas",
-    "99 - Assets/A Survey on Deep Semi-Supervised Learning- hybrid2.png",
-    "99 - Assets/A Survey on Deep Semi-Supervised Learning - hybrid.png",
-    "99 - Assets/A Survey on Deep Semi-Supervised Learning - taxonomy.png",
-    "99 - Assets/MixMatch - mixup.png",
-    "99 - Assets/Diary of Results - 200 rounds fixed.png"
+    "99 - Assets/A Survey on Deep Semi-Supervised Learning- hybrid2.png"
   ]
 }

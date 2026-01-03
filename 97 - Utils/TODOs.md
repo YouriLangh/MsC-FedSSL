@@ -1,18 +1,26 @@
 
-- [x] Move meeting to thursday ✅ 2025-08-16
+- [x] Fix the MULTI GPU code to store all metrics & in general fix it ✅ 2025-11-29
+- [ ] Run a test with fresh AT every round and not. IMPORTANTT
+- [ ] Remove locking which clients participate after the initial test
+- [ ] Fix the FL text & add more text
+- [x] Move meeting to thursday ✅ 2025-11-13
+- [x] Have to fix device such that if it is CPU, it doesnt try to run on gpu. ✅ 2025-10-16
+- [x] Improve fixmatch section & then ofc the rest ✅ 2025-11-13
+- [x] Fix the training code for supervised client. ✅ 2025-10-16
+- [x] Rerun the 1k, 2K, 10, 20k iter tests and the ~~2-10 epoch test~~ to see if new augmentations fucked it up, but compare to old results. ✅ 2025-10-16
 - [x] Read UNIMatch ✅ 2025-09-17
-- [ ] Fix code using [[(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling]]
+- [x] Fix code using [[(A) FedGGd Federated semi-supervised learning via globally guided pseudo-labeling]] ✅ 2025-09-26
 - [x] Make a story of the results in a document for overleaf ✅ 2025-09-05
-- [ ] Perform all the tests of [[2025-09-05]]
-- [ ] Alter augmentations?
-- [ ] Look into weight initilizations of clients?
+- [x] Perform all the tests of [[2025-09-05]] ✅ 2025-09-26
+- [x] Alter augmentations? ✅ 2025-09-26
+- [x] Look into weight initilizations of clients? ✅ 2025-09-26
 - [ ] Fix all the old viz code from past as new folder structure
 - [ ] Split the clients to different parts of a gpu or different cpus with pytorch distributed
 - [x] Fix colors of last chart. Too confusing ✅ 2025-09-01
 - [ ] Review results again from thesis
 - [ ] <span style="color:rgb(255, 0, 0)">DO NOT FORGET TO ALTER DIR IN SAVE_RESULTS!!!! AND HYPERPARAMCONFIG</span>
-- [ ] Probably have to Optuna tune the STM size
-- [ ] Do tests with cifar10 also
+- [x] Probably have to Optuna tune the STM size ✅ 2025-10-16
+- [x] Do tests with cifar10 also ✅ 2025-10-16
 - [x] Use Cuda for code ✅ 2025-08-18
 - [x] Make shell script to split the jobs. ✅ 2025-08-18
 - [x] Paths are wrong on HPC ✅ 2025-08-16
@@ -22,9 +30,9 @@
 - [x] Fix normalization bug ✅ 2025-08-13
 - [x] Normalize data in the other baselines ✅ 2025-08-13
 - [x] Fix other baselines with new datasets ✅ 2025-08-13
-- [ ] **Revisit all code n make sure no bugs**
+- [x] **Revisit all code n make sure no bugs** ✅ 2025-10-16
 - [x] I think the indices are wrong for the datasets. ✅ 2025-08-13
 - [ ] In the future, remove some of the baselines and replace with arguments? Baseline3 is not needed, if baseline 2 with 1 client. & Same goes for baseline 2.
 - [x] Perhaps adjust multi run to init datasets at every iter, perhaps the data is getting altered as the pretrain losses != ✅ 2025-08-16
 - [x] I think the low performance is due to FixMatch using cycling over smallest dataset rather than just going over rit once. ✅ 2025-08-14
-- [ ] Read FixMatch
+- [x] Read FixMatch ✅ 2025-10-16

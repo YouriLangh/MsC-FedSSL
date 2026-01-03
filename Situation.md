@@ -105,8 +105,3 @@ You can also evaluate:
     
 - Whether using the student to initialize clients improves convergence or accuracy in the next round
     
-
----
-
-Let me know if you want a short paper-style method section based on this — it would make for a strong thesis or publication basis.
-

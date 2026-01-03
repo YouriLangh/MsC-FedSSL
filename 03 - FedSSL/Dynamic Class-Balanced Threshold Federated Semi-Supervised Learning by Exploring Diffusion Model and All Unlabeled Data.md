@@ -4,10 +4,6 @@ Methods use random sampling & other techniques to address challenges of FSSL
 
 What is this negative learning approach?
 
-FSSL faces two main challenges:
-- Limited Labeled Data: There's not much labeled data available on each device, making it hard to train accurate models.
-- Non-Independent and Identically Distributed (non-IID) Data: The data on different devices can be very different (e.g., one hospital might have more scans of one type of disease than another). This "data heterogeneity" makes it difficult for a single global model to perform well on all devices
-
 This paper introduces a new method called **DDRFed (Dynamic Class-Balanced Threshold Federated Semi-Supervised Learning)** to improve how machine learning models are trained across multiple devices (like phones or hospitals) when only some of the data on these devices is labeled. This type of learning is called **Federated Semi-Supervised Learning (FSSL)**.
 
 **The Problem DDRFed Tries to Solve:**
